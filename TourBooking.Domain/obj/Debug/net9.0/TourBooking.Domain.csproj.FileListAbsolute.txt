@@ -1,0 +1,11 @@
+C:\Projects\TourBooking\TourBooking.Domain\bin\Debug\net9.0\TourBooking.Domain.deps.json
+C:\Projects\TourBooking\TourBooking.Domain\bin\Debug\net9.0\TourBooking.Domain.dll
+C:\Projects\TourBooking\TourBooking.Domain\bin\Debug\net9.0\TourBooking.Domain.pdb
+C:\Projects\TourBooking\TourBooking.Domain\obj\Debug\net9.0\TourBooking.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\TourBooking\TourBooking.Domain\obj\Debug\net9.0\TourBooking.Domain.AssemblyInfoInputs.cache
+C:\Projects\TourBooking\TourBooking.Domain\obj\Debug\net9.0\TourBooking.Domain.AssemblyInfo.cs
+C:\Projects\TourBooking\TourBooking.Domain\obj\Debug\net9.0\TourBooking.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\TourBooking\TourBooking.Domain\obj\Debug\net9.0\TourBooking.Domain.dll
+C:\Projects\TourBooking\TourBooking.Domain\obj\Debug\net9.0\refint\TourBooking.Domain.dll
+C:\Projects\TourBooking\TourBooking.Domain\obj\Debug\net9.0\TourBooking.Domain.pdb
+C:\Projects\TourBooking\TourBooking.Domain\obj\Debug\net9.0\ref\TourBooking.Domain.dll
