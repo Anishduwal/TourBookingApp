@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using TourBooking.API.Common;
 using TourBooking.Application.DTOs;
 using TourBooking.Application.Interfaces;
 using TourBooking.Domain.Entities;
@@ -61,7 +62,13 @@ namespace TourBooking.API.Controllers
                 IsActive = dto.IsActive
             };
             await _tourRepository.AddAsync(tour);
-            return CreatedAtAction(nameof(GetById), new { id = tour.Id }, tour);
+            var commonResponse = new CommonResponse()
+            {
+                Success = true,
+                ResponseCode = Response.StatusCode.ToString(),
+                ResponseMessage = "Success"
+            };
+            return CreatedAtAction(nameof(GetById), new { id = tour.Id }, commonResponse);
         }
 
         [HttpPut("{id}")]

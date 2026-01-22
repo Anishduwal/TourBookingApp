@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Work\TourBookingApp\TourBookingApp\TourBooking.Application\bin\Debug\net8.0\TourBooking.Application.deps.json
 C:\Work\TourBookingApp\TourBookingApp\TourBooking.Application\bin\Debug\net8.0\TourBooking.Application.dll
 C:\Work\TourBookingApp\TourBookingApp\TourBooking.Application\bin\Debug\net8.0\TourBooking.Application.pdb
@@ -14,3 +15,21 @@ C:\Work\TourBookingApp\TourBookingApp\TourBooking.Application\obj\Debug\net8.0\T
 C:\Work\TourBookingApp\TourBookingApp\TourBooking.Application\obj\Debug\net8.0\refint\TourBooking.Application.dll
 C:\Work\TourBookingApp\TourBookingApp\TourBooking.Application\obj\Debug\net8.0\TourBooking.Application.pdb
 C:\Work\TourBookingApp\TourBookingApp\TourBooking.Application\obj\Debug\net8.0\ref\TourBooking.Application.dll
+=======
+C:\Projects\TourBooking\TourBooking.Application\bin\Debug\net8.0\TourBooking.Application.deps.json
+C:\Projects\TourBooking\TourBooking.Application\bin\Debug\net8.0\TourBooking.Application.dll
+C:\Projects\TourBooking\TourBooking.Application\bin\Debug\net8.0\TourBooking.Application.pdb
+C:\Projects\TourBooking\TourBooking.Application\bin\Debug\net8.0\TourBooking.Domain.dll
+C:\Projects\TourBooking\TourBooking.Application\bin\Debug\net8.0\TourBooking.Domain.pdb
+C:\Projects\TourBooking\TourBooking.Application\obj\Debug\net8.0\TourBooking.Application.csproj.AssemblyReference.cache
+C:\Projects\TourBooking\TourBooking.Application\obj\Debug\net8.0\TourBooking.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\TourBooking\TourBooking.Application\obj\Debug\net8.0\TourBooking.Application.AssemblyInfoInputs.cache
+C:\Projects\TourBooking\TourBooking.Application\obj\Debug\net8.0\TourBooking.Application.AssemblyInfo.cs
+C:\Projects\TourBooking\TourBooking.Application\obj\Debug\net8.0\TourBooking.Application.csproj.CoreCompileInputs.cache
+C:\Projects\TourBooking\TourBooking.Application\obj\Debug\net8.0\TourBooking.Application.sourcelink.json
+C:\Projects\TourBooking\TourBooking.Application\obj\Debug\net8.0\TourBook.FA486468.Up2Date
+C:\Projects\TourBooking\TourBooking.Application\obj\Debug\net8.0\TourBooking.Application.dll
+C:\Projects\TourBooking\TourBooking.Application\obj\Debug\net8.0\refint\TourBooking.Application.dll
+C:\Projects\TourBooking\TourBooking.Application\obj\Debug\net8.0\TourBooking.Application.pdb
+C:\Projects\TourBooking\TourBooking.Application\obj\Debug\net8.0\ref\TourBooking.Application.dll
+>>>>>>> b6328909a48428338848fb23b836f72e47775c77

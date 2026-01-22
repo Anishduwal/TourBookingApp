@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Work\TourBookingApp\TourBookingApp\TourBooking.Infrastructure\bin\Debug\net8.0\TourBooking.Infrastructure.deps.json
 C:\Work\TourBookingApp\TourBookingApp\TourBooking.Infrastructure\bin\Debug\net8.0\TourBooking.Infrastructure.runtimeconfig.json
 C:\Work\TourBookingApp\TourBookingApp\TourBooking.Infrastructure\bin\Debug\net8.0\TourBooking.Infrastructure.dll
@@ -18,3 +19,25 @@ C:\Work\TourBookingApp\TourBookingApp\TourBooking.Infrastructure\obj\Debug\net8.
 C:\Work\TourBookingApp\TourBookingApp\TourBooking.Infrastructure\obj\Debug\net8.0\TourBooking.Infrastructure.pdb
 C:\Work\TourBookingApp\TourBookingApp\TourBooking.Infrastructure\obj\Debug\net8.0\TourBooking.Infrastructure.genruntimeconfig.cache
 C:\Work\TourBookingApp\TourBookingApp\TourBooking.Infrastructure\obj\Debug\net8.0\ref\TourBooking.Infrastructure.dll
+=======
+C:\Projects\TourBooking\TourBooking.Infrastructure\bin\Debug\net8.0\TourBooking.Infrastructure.deps.json
+C:\Projects\TourBooking\TourBooking.Infrastructure\bin\Debug\net8.0\TourBooking.Infrastructure.runtimeconfig.json
+C:\Projects\TourBooking\TourBooking.Infrastructure\bin\Debug\net8.0\TourBooking.Infrastructure.dll
+C:\Projects\TourBooking\TourBooking.Infrastructure\bin\Debug\net8.0\TourBooking.Infrastructure.pdb
+C:\Projects\TourBooking\TourBooking.Infrastructure\bin\Debug\net8.0\TourBooking.Application.dll
+C:\Projects\TourBooking\TourBooking.Infrastructure\bin\Debug\net8.0\TourBooking.Domain.dll
+C:\Projects\TourBooking\TourBooking.Infrastructure\bin\Debug\net8.0\TourBooking.Application.pdb
+C:\Projects\TourBooking\TourBooking.Infrastructure\bin\Debug\net8.0\TourBooking.Domain.pdb
+C:\Projects\TourBooking\TourBooking.Infrastructure\obj\Debug\net8.0\TourBooking.Infrastructure.csproj.AssemblyReference.cache
+C:\Projects\TourBooking\TourBooking.Infrastructure\obj\Debug\net8.0\TourBooking.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\TourBooking\TourBooking.Infrastructure\obj\Debug\net8.0\TourBooking.Infrastructure.AssemblyInfoInputs.cache
+C:\Projects\TourBooking\TourBooking.Infrastructure\obj\Debug\net8.0\TourBooking.Infrastructure.AssemblyInfo.cs
+C:\Projects\TourBooking\TourBooking.Infrastructure\obj\Debug\net8.0\TourBooking.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Projects\TourBooking\TourBooking.Infrastructure\obj\Debug\net8.0\TourBooking.Infrastructure.sourcelink.json
+C:\Projects\TourBooking\TourBooking.Infrastructure\obj\Debug\net8.0\TourBook.480F1ABD.Up2Date
+C:\Projects\TourBooking\TourBooking.Infrastructure\obj\Debug\net8.0\TourBooking.Infrastructure.dll
+C:\Projects\TourBooking\TourBooking.Infrastructure\obj\Debug\net8.0\refint\TourBooking.Infrastructure.dll
+C:\Projects\TourBooking\TourBooking.Infrastructure\obj\Debug\net8.0\TourBooking.Infrastructure.pdb
+C:\Projects\TourBooking\TourBooking.Infrastructure\obj\Debug\net8.0\TourBooking.Infrastructure.genruntimeconfig.cache
+C:\Projects\TourBooking\TourBooking.Infrastructure\obj\Debug\net8.0\ref\TourBooking.Infrastructure.dll
+>>>>>>> b6328909a48428338848fb23b836f72e47775c77
