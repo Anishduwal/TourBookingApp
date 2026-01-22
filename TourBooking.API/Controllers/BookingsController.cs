@@ -36,20 +36,27 @@ namespace TourBooking.API.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
-            var booking = await _bookingRepository.GetByIdAsync(id);
-            if (booking == null) return NotFound();
-
-            var dto = new BookingDto
+            try
             {
-                Id = booking.Id,
-                CustomerName = booking.CustomerName,
-                CustomerEmail = booking.CustomerEmail,
-                BookingDate = booking.BookingDate,
-                NumberOfPeople = booking.NumberOfPeople,
-                TourId = booking.TourId,
-                TourTitle = booking.Tour.Title
-            };
-            return Ok(dto);
+                var booking = await _bookingRepository.GetByIdAsync(id);
+                if (booking == null) return NotFound();
+
+                var dto = new BookingDto
+                {
+                    Id = booking.Id,
+                    CustomerName = booking.CustomerName,
+                    CustomerEmail = booking.CustomerEmail,
+                    BookingDate = booking.BookingDate,
+                    NumberOfPeople = booking.NumberOfPeople,
+                    TourId = booking.TourId,
+                    TourTitle = booking.Tour.Title
+                };
+                return Ok(dto);
+            }
+            catch
+            {
+                throw;
+            }
         }
 
         [HttpPost]
