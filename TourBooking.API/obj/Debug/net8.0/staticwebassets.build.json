@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "Version": 1,
   "Hash": "pQly6gBwFP4+KqwrbbeNOz99U32/DcKZSwPxuUH5KIc=",
@@ -10,6 +9,3 @@
   "DiscoveryPatterns": [],
   "Assets": []
 }
-=======
-{"Version":1,"Hash":"23lkK+9twGXBHiVFsL6NZuUwE5a1CxltBMY/9WWSG84=","Source":"TourBooking.API","BasePath":"_content/TourBooking.API","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
->>>>>>> b6328909a48428338848fb23b836f72e47775c77

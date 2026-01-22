@@ -129,14 +129,7 @@
       },
       "TourBooking.Domain/1.0.0": {
         "runtime": {
-<<<<<<< HEAD
           "TourBooking.Domain.dll": {}
-=======
-          "TourBooking.Domain.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
->>>>>>> b6328909a48428338848fb23b836f72e47775c77
         }
       }
     }

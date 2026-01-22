@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 C:\Work\TourBookingApp\TourBookingApp\TourBooking.Domain\bin\Debug\net8.0\TourBooking.Domain.deps.json
 C:\Work\TourBookingApp\TourBookingApp\TourBooking.Domain\bin\Debug\net8.0\TourBooking.Domain.dll
 C:\Work\TourBookingApp\TourBookingApp\TourBooking.Domain\bin\Debug\net8.0\TourBooking.Domain.pdb
@@ -11,17 +10,3 @@ C:\Work\TourBookingApp\TourBookingApp\TourBooking.Domain\obj\Debug\net8.0\TourBo
 C:\Work\TourBookingApp\TourBookingApp\TourBooking.Domain\obj\Debug\net8.0\refint\TourBooking.Domain.dll
 C:\Work\TourBookingApp\TourBookingApp\TourBooking.Domain\obj\Debug\net8.0\TourBooking.Domain.pdb
 C:\Work\TourBookingApp\TourBookingApp\TourBooking.Domain\obj\Debug\net8.0\ref\TourBooking.Domain.dll
-=======
-C:\Projects\TourBooking\TourBooking.Domain\bin\Debug\net8.0\TourBooking.Domain.deps.json
-C:\Projects\TourBooking\TourBooking.Domain\bin\Debug\net8.0\TourBooking.Domain.dll
-C:\Projects\TourBooking\TourBooking.Domain\bin\Debug\net8.0\TourBooking.Domain.pdb
-C:\Projects\TourBooking\TourBooking.Domain\obj\Debug\net8.0\TourBooking.Domain.GeneratedMSBuildEditorConfig.editorconfig
-C:\Projects\TourBooking\TourBooking.Domain\obj\Debug\net8.0\TourBooking.Domain.AssemblyInfoInputs.cache
-C:\Projects\TourBooking\TourBooking.Domain\obj\Debug\net8.0\TourBooking.Domain.AssemblyInfo.cs
-C:\Projects\TourBooking\TourBooking.Domain\obj\Debug\net8.0\TourBooking.Domain.csproj.CoreCompileInputs.cache
-C:\Projects\TourBooking\TourBooking.Domain\obj\Debug\net8.0\TourBooking.Domain.sourcelink.json
-C:\Projects\TourBooking\TourBooking.Domain\obj\Debug\net8.0\TourBooking.Domain.dll
-C:\Projects\TourBooking\TourBooking.Domain\obj\Debug\net8.0\refint\TourBooking.Domain.dll
-C:\Projects\TourBooking\TourBooking.Domain\obj\Debug\net8.0\TourBooking.Domain.pdb
-C:\Projects\TourBooking\TourBooking.Domain\obj\Debug\net8.0\ref\TourBooking.Domain.dll
->>>>>>> b6328909a48428338848fb23b836f72e47775c77
