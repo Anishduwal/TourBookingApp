@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TourBooking.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce8539917aa7a5feb6f88d345d2f6dbaf04ea76c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6328909a48428338848fb23b836f72e47775c77")]
 [assembly: System.Reflection.AssemblyProductAttribute("TourBooking.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TourBooking.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
