@@ -1,0 +1,16 @@
+C:\Work\TourBookingApp\TourBookingApp\TourBooking.Application\bin\Debug\net8.0\TourBooking.Application.deps.json
+C:\Work\TourBookingApp\TourBookingApp\TourBooking.Application\bin\Debug\net8.0\TourBooking.Application.dll
+C:\Work\TourBookingApp\TourBookingApp\TourBooking.Application\bin\Debug\net8.0\TourBooking.Application.pdb
+C:\Work\TourBookingApp\TourBookingApp\TourBooking.Application\bin\Debug\net8.0\TourBooking.Domain.dll
+C:\Work\TourBookingApp\TourBookingApp\TourBooking.Application\bin\Debug\net8.0\TourBooking.Domain.pdb
+C:\Work\TourBookingApp\TourBookingApp\TourBooking.Application\obj\Debug\net8.0\TourBooking.Application.csproj.AssemblyReference.cache
+C:\Work\TourBookingApp\TourBookingApp\TourBooking.Application\obj\Debug\net8.0\TourBooking.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\TourBookingApp\TourBookingApp\TourBooking.Application\obj\Debug\net8.0\TourBooking.Application.AssemblyInfoInputs.cache
+C:\Work\TourBookingApp\TourBookingApp\TourBooking.Application\obj\Debug\net8.0\TourBooking.Application.AssemblyInfo.cs
+C:\Work\TourBookingApp\TourBookingApp\TourBooking.Application\obj\Debug\net8.0\TourBooking.Application.csproj.CoreCompileInputs.cache
+C:\Work\TourBookingApp\TourBookingApp\TourBooking.Application\obj\Debug\net8.0\TourBooking.Application.sourcelink.json
+C:\Work\TourBookingApp\TourBookingApp\TourBooking.Application\obj\Debug\net8.0\TourBook.FA486468.Up2Date
+C:\Work\TourBookingApp\TourBookingApp\TourBooking.Application\obj\Debug\net8.0\TourBooking.Application.dll
+C:\Work\TourBookingApp\TourBookingApp\TourBooking.Application\obj\Debug\net8.0\refint\TourBooking.Application.dll
+C:\Work\TourBookingApp\TourBookingApp\TourBooking.Application\obj\Debug\net8.0\TourBooking.Application.pdb
+C:\Work\TourBookingApp\TourBookingApp\TourBooking.Application\obj\Debug\net8.0\ref\TourBooking.Application.dll

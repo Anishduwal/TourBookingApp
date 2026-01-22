@@ -1,0 +1,12 @@
+C:\Work\TourBookingApp\TourBookingApp\TourBooking.Domain\bin\Debug\net8.0\TourBooking.Domain.deps.json
+C:\Work\TourBookingApp\TourBookingApp\TourBooking.Domain\bin\Debug\net8.0\TourBooking.Domain.dll
+C:\Work\TourBookingApp\TourBookingApp\TourBooking.Domain\bin\Debug\net8.0\TourBooking.Domain.pdb
+C:\Work\TourBookingApp\TourBookingApp\TourBooking.Domain\obj\Debug\net8.0\TourBooking.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\TourBookingApp\TourBookingApp\TourBooking.Domain\obj\Debug\net8.0\TourBooking.Domain.AssemblyInfoInputs.cache
+C:\Work\TourBookingApp\TourBookingApp\TourBooking.Domain\obj\Debug\net8.0\TourBooking.Domain.AssemblyInfo.cs
+C:\Work\TourBookingApp\TourBookingApp\TourBooking.Domain\obj\Debug\net8.0\TourBooking.Domain.csproj.CoreCompileInputs.cache
+C:\Work\TourBookingApp\TourBookingApp\TourBooking.Domain\obj\Debug\net8.0\TourBooking.Domain.sourcelink.json
+C:\Work\TourBookingApp\TourBookingApp\TourBooking.Domain\obj\Debug\net8.0\TourBooking.Domain.dll
+C:\Work\TourBookingApp\TourBookingApp\TourBooking.Domain\obj\Debug\net8.0\refint\TourBooking.Domain.dll
+C:\Work\TourBookingApp\TourBookingApp\TourBooking.Domain\obj\Debug\net8.0\TourBooking.Domain.pdb
+C:\Work\TourBookingApp\TourBookingApp\TourBooking.Domain\obj\Debug\net8.0\ref\TourBooking.Domain.dll
