@@ -1061,14 +1061,7 @@
           }
         }
       },
-      "System.Formats.Asn1/8.0.2": {
-        "runtime": {
-          "lib/net8.0/System.Formats.Asn1.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.1325.6609"
-          }
-        }
-      },
+      "System.Formats.Asn1/8.0.2": {},
       "System.IdentityModel.Tokens.Jwt/7.7.1": {
         "dependencies": {
           "Microsoft.IdentityModel.JsonWebTokens": "8.14.0",
@@ -1169,12 +1162,18 @@
           "TourBooking.Domain": "1.0.0"
         },
         "runtime": {
-          "TourBooking.Application.dll": {}
+          "TourBooking.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "TourBooking.Domain/1.0.0": {
         "runtime": {
-          "TourBooking.Domain.dll": {}
+          "TourBooking.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "TourBooking.Infrastructure/1.0.0": {
@@ -1184,7 +1183,10 @@
           "TourBooking.Domain": "1.0.0"
         },
         "runtime": {
-          "TourBooking.Infrastructure.dll": {}
+          "TourBooking.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

@@ -26,6 +26,7 @@ namespace TourBooking.API.Controllers
                 Id = t.Id,
                 Title = t.Title,
                 Location = t.Location,
+                Description = t.Description,
                 Price = t.Price,
                 DurationInHours = t.DurationInHours,
                 IsActive = t.IsActive
@@ -43,6 +44,7 @@ namespace TourBooking.API.Controllers
                 Id = tour.Id,
                 Title = tour.Title,
                 Location = tour.Location,
+                Description = tour.Description,
                 Price = tour.Price,
                 DurationInHours = tour.DurationInHours,
                 IsActive = tour.IsActive
@@ -57,6 +59,7 @@ namespace TourBooking.API.Controllers
             {
                 Title = dto.Title,
                 Location = dto.Location,
+                Description = dto.Description,
                 Price = dto.Price,
                 DurationInHours = dto.DurationInHours,
                 IsActive = dto.IsActive
@@ -79,6 +82,7 @@ namespace TourBooking.API.Controllers
 
             existingTour.Title = dto.Title;
             existingTour.Location = dto.Location;
+            existingTour.Description = dto.Description;
             existingTour.Price = dto.Price;
             existingTour.DurationInHours = dto.DurationInHours;
             existingTour.IsActive = dto.IsActive;
