@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Work\\TourBookingApp\\TourBookingApp\\TourBooking.Domain\\TourBooking.Domain.csproj": {}
+    "C:\\Projects\\TourBooking\\TourBooking.Domain\\TourBooking.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Work\\TourBookingApp\\TourBookingApp\\TourBooking.Domain\\TourBooking.Domain.csproj": {
+    "C:\\Projects\\TourBooking\\TourBooking.Domain\\TourBooking.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Work\\TourBookingApp\\TourBookingApp\\TourBooking.Domain\\TourBooking.Domain.csproj",
+        "projectUniqueName": "C:\\Projects\\TourBooking\\TourBooking.Domain\\TourBooking.Domain.csproj",
         "projectName": "TourBooking.Domain",
-        "projectPath": "C:\\Work\\TourBookingApp\\TourBookingApp\\TourBooking.Domain\\TourBooking.Domain.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Work\\TourBookingApp\\TourBookingApp\\TourBooking.Domain\\obj\\",
+        "projectPath": "C:\\Projects\\TourBooking\\TourBooking.Domain\\TourBooking.Domain.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\TourBooking\\TourBooking.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -61,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
