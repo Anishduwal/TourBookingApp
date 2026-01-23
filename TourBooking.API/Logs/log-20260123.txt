@@ -1,0 +1,13 @@
+2026-01-23 15:55:19.604 +05:45 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Tour'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-01-23 15:55:19.709 +05:45 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Tour'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-01-23 15:55:47.378 +05:45 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Tour'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-01-23 15:55:47.614 +05:45 [ERR] Failed executing DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Tours] (
+    [Id] int NOT NULL IDENTITY,
+    [Title] nvarchar(max) NOT NULL,
+    [Location] nvarchar(max) NOT NULL,
+    [Price] decimal(18,2) NOT NULL,
+    [DurationInHours] int NOT NULL,
+    [IsActive] bit NOT NULL,
+    CONSTRAINT [PK_Tours] PRIMARY KEY ([Id])
+);

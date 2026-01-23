@@ -153,7 +153,6 @@ C:\Projects\TourBooking\TourBooking.API\obj\Debug\net8.0\staticwebassets.build.j
 C:\Projects\TourBooking\TourBooking.API\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Projects\TourBooking\TourBooking.API\obj\Debug\net8.0\staticwebassets.development.json
 C:\Projects\TourBooking\TourBooking.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Projects\TourBooking\TourBooking.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Projects\TourBooking\TourBooking.API\obj\Debug\net8.0\TourBook.BFD69298.Up2Date
 C:\Projects\TourBooking\TourBooking.API\obj\Debug\net8.0\TourBooking.API.dll
 C:\Projects\TourBooking\TourBooking.API\obj\Debug\net8.0\refint\TourBooking.API.dll
