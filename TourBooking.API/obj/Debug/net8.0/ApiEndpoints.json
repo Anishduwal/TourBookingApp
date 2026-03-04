@@ -113,7 +113,7 @@
         "IsRequired": true
       },
       {
-        "Name": "dto",
+        "Name": "tour",
         "Type": "TourBooking.Application.DTOs.TourDto",
         "IsRequired": true
       }

@@ -6,8 +6,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TourBooking.Application.Features.Tours;
 using TourBooking.Application.Interfaces;
 using TourBooking.Infrastructure.Repositories;
+using TourBooking.Infrastructure.Services;
 
 namespace TourBooking.Infrastructure
 {
@@ -23,7 +25,8 @@ namespace TourBooking.Infrastructure
 
             services.AddScoped<ITourRepository, TourRepository>();
             services.AddScoped<IBookingRepository, BookingRepository>();
-
+            services.AddScoped<ITourService, TourService>();
+            services.AddScoped<ICacheService, RedisCacheService>();
             return services;
         }
     }

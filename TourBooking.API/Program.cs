@@ -45,7 +45,11 @@ builder.Services.AddSwaggerGen(c =>
 
 builder.Services.AddInfrastructure(builder.Configuration);
 
-
+//Add Redis
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = builder.Configuration["Redis:ConnectionString"];
+});
 // Add logging to file and database
 var columnOptions = new ColumnOptions();
 columnOptions.Store.Remove(StandardColumn.Properties); // optional cleanup

@@ -69,6 +69,10 @@
               "target": "Package",
               "version": "[8.0.23, )"
             },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[10.0.3, )"
+            },
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[10.0.0, )"
@@ -311,6 +315,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.23, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.11.8, )"
             }
           },
           "imports": [

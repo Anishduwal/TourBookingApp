@@ -363,3 +363,9 @@ C:\Work\TourBookingApp\TourBookingApp\TourBooking.API\obj\Debug\net8.0\refint\To
 C:\Work\TourBookingApp\TourBookingApp\TourBooking.API\obj\Debug\net8.0\TourBooking.API.pdb
 C:\Work\TourBookingApp\TourBookingApp\TourBooking.API\obj\Debug\net8.0\TourBooking.API.genruntimeconfig.cache
 C:\Work\TourBookingApp\TourBookingApp\TourBooking.API\obj\Debug\net8.0\ref\TourBooking.API.dll
+C:\Projects\TourBooking\TourBooking.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Projects\TourBooking\TourBooking.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+C:\Projects\TourBooking\TourBooking.API\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+C:\Projects\TourBooking\TourBooking.API\bin\Debug\net8.0\StackExchange.Redis.dll
+C:\Projects\TourBooking\TourBooking.API\bin\Debug\net8.0\System.IO.Hashing.dll
+C:\Projects\TourBooking\TourBooking.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

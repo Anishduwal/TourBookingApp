@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using TourBooking.API.Common;
 using TourBooking.Application.DTOs;
-using TourBooking.Application.Interfaces;
+using TourBooking.Application.Features.Tours;
 using TourBooking.Domain.Entities;
 
 namespace TourBooking.API.Controllers
@@ -10,34 +10,24 @@ namespace TourBooking.API.Controllers
     [Route("api/[controller]")]
     public class ToursController : ControllerBase
     {
-        private readonly ITourRepository _tourRepository;
+        private readonly ITourService _tourService;
 
-        public ToursController(ITourRepository tourRepository)
+        public ToursController(ITourService tourService)
         {
-            _tourRepository = tourRepository;
+            _tourService = tourService;
         }
 
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            var tours = await _tourRepository.GetAllAsync();
-            var dto = tours.Select(t => new TourDto
-            {
-                Id = t.Id,
-                Title = t.Title,
-                Location = t.Location,
-                Description = t.Description,
-                Price = t.Price,
-                DurationInHours = t.DurationInHours,
-                IsActive = t.IsActive
-            }).ToList();
-            return Ok(dto);
+            var tours = await _tourService.GetTourListAsync();
+            return Ok(tours);
         }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
-            var tour = await _tourRepository.GetByIdAsync(id);
+            var tour = await _tourService.GetByIdAsync(id);
             if (tour == null) return NotFound();
             var dto = new TourDto
             {
@@ -55,50 +45,30 @@ namespace TourBooking.API.Controllers
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] TourDto dto)
         {
-            var tour = new Tour
-            {
-                Title = dto.Title,
-                Location = dto.Location,
-                Description = dto.Description,
-                Price = dto.Price,
-                DurationInHours = dto.DurationInHours,
-                IsActive = dto.IsActive
-            };
-            await _tourRepository.AddAsync(tour);
-            var commonResponse = new CommonResponse()
-            {
-                Success = true,
-                ResponseCode = Response.StatusCode.ToString(),
-                ResponseMessage = "Success"
-            };
-            return CreatedAtAction(nameof(GetById), new { id = tour.Id }, commonResponse);
+            var id = await _tourService.CreateAsync(dto);
+            return CreatedAtAction(nameof(GetById), new { id }, null);
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] TourDto dto)
+        public async Task<IActionResult> Update(int id, [FromBody] TourDto tour)
         {
-            var existingTour = await _tourRepository.GetByIdAsync(id);
-            if (existingTour == null) return NotFound();
-
-            existingTour.Title = dto.Title;
-            existingTour.Location = dto.Location;
-            existingTour.Description = dto.Description;
-            existingTour.Price = dto.Price;
-            existingTour.DurationInHours = dto.DurationInHours;
-            existingTour.IsActive = dto.IsActive;
-
-            await _tourRepository.UpdateAsync(existingTour);
-            return NoContent();
+            
+            var result = await _tourService.UpdateAsync(tour);
+            if(result > 0)
+            {
+                return Ok("Success");
+            }
+            else
+            {
+                return NoContent();
+            }
         }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            var existingTour = await _tourRepository.GetByIdAsync(id);
-            if (existingTour == null) return NotFound();
-
-            await _tourRepository.DeleteAsync(existingTour);
-            return NoContent();
+            int result = await _tourService.DeleteAsync(id);
+            return (result > 0 ? Ok() : NoContent());
         }
     }
 }
