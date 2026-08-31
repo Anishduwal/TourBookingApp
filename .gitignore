@@ -1,0 +1,12 @@
+# .NET build output
+**/[Bb]in/
+**/[Oo]bj/
+
+# Visual Studio local workspace state
+.vs/
+*.user
+*.suo
+
+# Runtime logs and test results
+**/Logs/
+**/TestResults/

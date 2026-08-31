@@ -27,6 +27,9 @@ namespace TourBooking.Infrastructure
             services.AddScoped<IBookingRepository, BookingRepository>();
             services.AddScoped<ITourService, TourService>();
             services.AddScoped<ICacheService, RedisCacheService>();
+            services.AddScoped<IAuthService, AuthService>();
+            services.AddScoped<Microsoft.AspNetCore.Identity.IPasswordHasher<TourBooking.Domain.Entities.User>,
+                Microsoft.AspNetCore.Identity.PasswordHasher<TourBooking.Domain.Entities.User>>();
             return services;
         }
     }
